@@ -10,8 +10,10 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
+
+import id.technomotion.stickyheaderviewpager.delegate.AbsListViewDelegate;
+import id.technomotion.stickyheaderviewpager.fragment.BaseViewPagerFragment;
 import me.relex.seamlessviewpagerheader.R;
-import me.relex.seamlessviewpagerheader.delegate.AbsListViewDelegate;
 
 public class ListViewFragment extends BaseViewPagerFragment
         implements AbsListView.OnItemClickListener {
@@ -60,6 +62,7 @@ public class ListViewFragment extends BaseViewPagerFragment
         mListView.setEmptyView(view.findViewById(android.R.id.empty));
         return view;
     }
+
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {

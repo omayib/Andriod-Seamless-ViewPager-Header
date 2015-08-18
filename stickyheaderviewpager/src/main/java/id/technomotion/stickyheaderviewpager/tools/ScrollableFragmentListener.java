@@ -1,4 +1,4 @@
-package me.relex.seamlessviewpagerheader.tools;
+package id.technomotion.stickyheaderviewpager.tools;
 
 public interface ScrollableFragmentListener {
 

@@ -13,10 +13,10 @@ import android.view.animation.DecelerateInterpolator;
 import android.view.animation.Interpolator;
 import me.relex.seamlessviewpagerheader.R;
 import me.relex.seamlessviewpagerheader.activity.MainFragmentActivity;
-import me.relex.seamlessviewpagerheader.tools.ScrollableListener;
-import me.relex.seamlessviewpagerheader.tools.ViewPagerHeaderHelper;
-import me.relex.seamlessviewpagerheader.widget.SlidingTabLayout;
-import me.relex.seamlessviewpagerheader.widget.TouchCallbackLayout;
+import id.technomotion.stickyheaderviewpager.tools.ScrollableListener;
+import id.technomotion.stickyheaderviewpager.tools.ViewPagerHeaderHelper;
+import id.technomotion.stickyheaderviewpager.widget.SlidingTabLayout;
+import id.technomotion.stickyheaderviewpager.widget.TouchCallbackLayout;
 
 /**
  * Created by kaede on 2015/5/13.

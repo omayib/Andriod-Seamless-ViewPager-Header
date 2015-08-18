@@ -13,7 +13,7 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
-package me.relex.seamlessviewpagerheader.delegate;
+package id.technomotion.stickyheaderviewpager.delegate;
 
 import android.view.View;
 

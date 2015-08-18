@@ -6,8 +6,8 @@ import android.support.v4.util.SparseArrayCompat;
 import android.support.v7.app.ActionBarActivity;
 import me.relex.seamlessviewpagerheader.R;
 import me.relex.seamlessviewpagerheader.fragment.MainFragment;
-import me.relex.seamlessviewpagerheader.tools.ScrollableFragmentListener;
-import me.relex.seamlessviewpagerheader.tools.ScrollableListener;
+import id.technomotion.stickyheaderviewpager.tools.ScrollableFragmentListener;
+import id.technomotion.stickyheaderviewpager.tools.ScrollableListener;
 
 
 public class MainFragmentActivity extends ActionBarActivity implements ScrollableFragmentListener {

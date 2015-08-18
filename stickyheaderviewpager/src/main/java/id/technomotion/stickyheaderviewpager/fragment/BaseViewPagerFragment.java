@@ -1,11 +1,12 @@
-package me.relex.seamlessviewpagerheader.fragment;
+package id.technomotion.stickyheaderviewpager.fragment;
 
 import android.app.Activity;
-import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.os.Bundle;
 import android.util.Log;
-import me.relex.seamlessviewpagerheader.tools.ScrollableFragmentListener;
-import me.relex.seamlessviewpagerheader.tools.ScrollableListener;
+
+import id.technomotion.stickyheaderviewpager.tools.ScrollableFragmentListener;
+import id.technomotion.stickyheaderviewpager.tools.ScrollableListener;
 
 public abstract class BaseViewPagerFragment extends Fragment implements ScrollableListener {
 

@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-package me.relex.seamlessviewpagerheader.delegate;
+package id.technomotion.stickyheaderviewpager.delegate;
 
 import android.graphics.Rect;
 import android.view.MotionEvent;

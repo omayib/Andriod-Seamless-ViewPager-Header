@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package me.relex.seamlessviewpagerheader.widget;
+package id.technomotion.stickyheaderviewpager.widget;
 
 import android.R;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package me.relex.seamlessviewpagerheader.widget;
+package id.technomotion.stickyheaderviewpager.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;

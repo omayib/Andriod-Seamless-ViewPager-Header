@@ -1,4 +1,4 @@
-<me.relex.seamlessviewpagerheader.widget.TouchCallbackLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<id.technomotion.stickyheaderviewpager.widget.TouchCallbackLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@id/layout"
 
     android:layout_width="match_parent"
@@ -17,21 +17,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <TextView
-                android:gravity="center_vertical"
-            android:paddingLeft="@dimen/space_middle"
-            android:paddingRight="@dimen/space_middle"
-            android:textColor="@android:color/white"
-            android:text="@string/header_text"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/viewpager_header_height"/>
 
-        <me.relex.seamlessviewpagerheader.widget.SlidingTabLayout
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/viewpager_header_height"
+            android:id="@+id/imageView"
+            android:src="@drawable/ny"
+            android:scaleType="centerCrop"/>
+
+        <id.technomotion.stickyheaderviewpager.widget.SlidingTabLayout
             android:id="@id/tabs"
             android:layout_width="match_parent"
             android:layout_height="@dimen/tabs_height"/>
     </LinearLayout>
 
-</me.relex.seamlessviewpagerheader.widget.TouchCallbackLayout>
+</id.technomotion.stickyheaderviewpager.widget.TouchCallbackLayout>

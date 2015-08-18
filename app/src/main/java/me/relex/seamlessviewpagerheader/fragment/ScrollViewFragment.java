@@ -7,12 +7,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ScrollView;
 import android.widget.TextView;
-import me.relex.seamlessviewpagerheader.R;
-import me.relex.seamlessviewpagerheader.delegate.ScrollViewDelegate;
 
 import java.io.ByteArrayOutputStream;
 import java.io.Closeable;
 import java.io.InputStream;
+
+import id.technomotion.stickyheaderviewpager.delegate.ScrollViewDelegate;
+import id.technomotion.stickyheaderviewpager.fragment.BaseViewPagerFragment;
+import me.relex.seamlessviewpagerheader.R;
 
 public class ScrollViewFragment extends BaseViewPagerFragment {
 
